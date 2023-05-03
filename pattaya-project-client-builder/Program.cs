@@ -141,7 +141,7 @@ namespace pattaya_project_client_builder
                             Directory.CreateDirectory(Environment.CurrentDirectory + @"\Clients");
 
                         asm.Write(Environment.CurrentDirectory + @"\Clients\" + "pbot_" + Path.GetRandomFileName() + ".exe");
-                        Console.WriteLine("Client generted...");
+                        Console.WriteLine("Client generated...");
                         Console.ReadKey();
 
                     }
